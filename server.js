@@ -2,7 +2,6 @@ const express = require('express');
 const request = require('superagent');
 const { PORT = '3838' } = process.env;
 const { HOST } = require('./package.json').remote;
-console.log(HOST)
 const app = express();
 app.set('port', PORT);
 app.use('/', function (req, res) {
