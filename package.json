@@ -1,0 +1,22 @@
+{
+  "name": "my-agency",
+  "version": "0.0.1",
+  "description": "simple angecy",
+  "main": "server.js",
+  "scripts": {
+    "test": "start"
+  },
+  "keywords": [
+    "node",
+    "angecy"
+  ],
+  "author": "Necfol",
+  "license": "ISC",
+  "devDependencies": {
+    "express": "^4.15.3",
+    "superagent": "^3.5.2"
+  },
+  "remote":{
+    "HOST": "http://s.music.qq.com"
+  }
+}
