@@ -17,6 +17,6 @@
     "superagent": "^3.5.2"
   },
   "remote":{
-    "HOST": "http://s.music.qq.com"
+    "HOST": ["http://c.y.qq.com", "http://ws.stream.qqmusic.qq.com"]
   }
 }
